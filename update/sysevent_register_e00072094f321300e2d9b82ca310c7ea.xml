@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_90342_timesheet.notify submit</event_name>
+        <fired_by>scheduled job</fired_by>
+        <queue/>
+        <suffix>notify submit</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-18 06:41:31</sys_created_on>
+        <sys_id>e00072094f321300e2d9b82ca310c7ea</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_90342_timesheet.notify submit</sys_name>
+        <sys_package display_value="Timesheet" source="x_90342_timesheet">12a882424f221300e2d9b82ca310c758</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet">12a882424f221300e2d9b82ca310c758</sys_scope>
+        <sys_update_name>sysevent_register_e00072094f321300e2d9b82ca310c7ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-18 06:46:40</sys_updated_on>
+        <table>x_90342_timesheet_table</table>
+    </sysevent_register>
+</record_update>

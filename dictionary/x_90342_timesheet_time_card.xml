@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Time Card" max_length="40" name="x_90342_timesheet_time_card" type="collection">
+        <element choice="3" default="meeting" label="Category" mandatory="true" max_length="40" name="category" type="choice">
+            <choice>
+                <element label="Meeting" sequence="0" value="meeting"/>
+                <element label="Out Of Office" sequence="1" value="outofoffice"/>
+                <element label="Training" sequence="2" value="training"/>
+                <element label="Project Work" sequence="3" value="project"/>
+                <element label="Self-Learning" sequence="4" value="self"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
+        <element default="javascript:parent.employee.getDisplayValue()" label="Employee" max_length="32" name="employee" read_only="true" reference="sys_user" type="reference"/>
+        <element default="0" label="Friday Time" max_length="40" name="friday_time" type="float"/>
+        <element default="0" label="Monday Time" max_length="40" name="monday_time" type="float"/>
+        <element default="0" label="Saturday Time" max_length="40" name="saturday_time" type="float"/>
+        <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="meeting" label="Internal Meeting" sequence="0" value="Internal Meeting"/>
+                <element dependent_value="outofoffice" label="Planned Leave" sequence="0" value="Planned Leave"/>
+                <element dependent_value="training" label="Training taken" sequence="0" value="Training taken"/>
+                <element dependent_value="meeting" label="Client Meeting" sequence="1" value="Client Meeting"/>
+                <element dependent_value="outofoffice" label="Sick Leave" sequence="1" value="Sick Leave"/>
+                <element dependent_value="training" label="Training given" sequence="1" value="Training given"/>
+                <element dependent_value="outofoffice" label="Emergency Leave" sequence="2" value="Emergency Leave"/>
+                <element dependent_value="outofoffice" label="Transfer Leave" sequence="3" value="Transfer Leave"/>
+                <element dependent_value="outofoffice" label="Public Holiday" sequence="4" value="Public Holiday"/>
+            </choice>
+        </element>
+        <element default="0" label="Sunday Time" max_length="40" name="sunday_time" type="float"/>
+        <element default="0" label="Thursday Time" max_length="40" name="thursday_time" type="float"/>
+        <element label="Timesheet" max_length="32" name="timesheet" reference="x_90342_timesheet_table" type="reference"/>
+        <element default="0" label="Total Time" max_length="40" name="total_time" type="float"/>
+        <element default="0" label="Tuesday Time" max_length="40" name="tuesday_time" type="float"/>
+        <element default="0" label="Wednesday Time" max_length="40" name="wednesday_time" type="float"/>
+        <element default="javascript:parent.week_starts_on.getDisplayValue()" label="Week Starts On" max_length="40" name="week_starts_on" read_only="true" type="glide_date"/>
+        <index name="index">
+            <element name="timesheet"/>
+        </index>
+        <index name="index2">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>

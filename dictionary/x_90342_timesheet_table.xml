@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Timesheet" max_length="40" name="x_90342_timesheet_table" type="collection">
+        <element label="Comments" max_length="255" name="comments" type="string_full_utf8"/>
+        <element default="javascript:gs.getUserID();" display="true" dynamic_default_value="15b28ff64f621300e2d9b82ca310c76e" label="Employee" max_length="40" name="employee" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" default="draft" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element label="Draft" sequence="0" value="draft"/>
+                <element label="Waiting For Approval" sequence="1" value="waiting for approval"/>
+                <element label="Approved" sequence="2" value="approved"/>
+                <element label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+        <element label="TimeCard" max_length="32" name="timecard" reference="x_90342_timesheet_time_card" type="reference"/>
+        <element default="0" label="Total Hours" max_length="40" name="total_hours" read_only="true" type="integer"/>
+        <element label="Week Starts On" mandatory="true" max_length="40" name="week_starts_on" type="glide_date"/>
+        <index name="index">
+            <element name="timecard"/>
+        </index>
+    </element>
+</database>

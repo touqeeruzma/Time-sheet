@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for_default>false</available_for_default>
+        <available_for_filter>false</available_for_filter>
+        <available_for_ref_qual>false</available_for_ref_qual>
+        <field_type/>
+        <label>Me</label>
+        <order/>
+        <roles/>
+        <script>gs.getUserID()</script>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-11 07:31:23</sys_created_on>
+        <sys_id>bf68b2724f621300e2d9b82ca310c7d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Me</sys_name>
+        <sys_package display_value="Timesheet" source="x_90342_timesheet">12a882424f221300e2d9b82ca310c758</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet">12a882424f221300e2d9b82ca310c758</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_bf68b2724f621300e2d9b82ca310c7d4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-11 07:31:23</sys_updated_on>
+        <table/>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+</record_update>

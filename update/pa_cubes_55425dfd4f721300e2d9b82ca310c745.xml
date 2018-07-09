@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_cubes">
+    <pa_cubes action="INSERT_OR_UPDATE">
+        <benchmarking>false</benchmarking>
+        <conditions/>
+        <description/>
+        <facts_table>x_90342_timesheet_table</facts_table>
+        <facts_table_pk/>
+        <facts_table_pktable/>
+        <facts_table_pkview/>
+        <frequency>10</frequency>
+        <name>Timesheet Report</name>
+        <report_source/>
+        <report_source_updated_at/>
+        <sys_class_name>pa_cubes</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-20 07:47:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>55425dfd4f721300e2d9b82ca310c745</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Timesheet Report</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Timesheet" source="x_90342_timesheet">12a882424f221300e2d9b82ca310c758</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet">12a882424f221300e2d9b82ca310c758</sys_scope>
+        <sys_update_name>pa_cubes_55425dfd4f721300e2d9b82ca310c745</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-20 07:47:13</sys_updated_on>
+    </pa_cubes>
+    <sys_translated_text action="delete_multiple" query="documentkey=55425dfd4f721300e2d9b82ca310c745"/>
+</record_update>

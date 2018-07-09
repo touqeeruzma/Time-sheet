@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to><![CDATA[var gr = new GlideRecord(table_name);
+answer = gr.instanceOf('kb_knowledge');]]></apply_to>
+        <basic_apply_to>x_90342_timesheet_table</basic_apply_to>
+        <basic_query_from>sysapproval_approver</basic_query_from>
+        <insert_callback/>
+        <name>Approvals</name>
+        <query_from><![CDATA[answer = 'sysapproval_approver';]]></query_from>
+        <query_with><![CDATA[current.addQuery('source_table', parent.getTableName());
+current.addQuery('document_id', parent.sys_id);
+current.addQuery('state','!=','not_required');]]></query_with>
+        <reference_field>sysapproval</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-12 07:53:55</sys_created_on>
+        <sys_id>90474c5f4f6e1300e2d9b82ca310c7d0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Approvals</sys_name>
+        <sys_package display_value="Timesheet" source="x_90342_timesheet">12a882424f221300e2d9b82ca310c758</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Timesheet">12a882424f221300e2d9b82ca310c758</sys_scope>
+        <sys_update_name>sys_relationship_90474c5f4f6e1300e2d9b82ca310c7d0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-12 07:54:15</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=90474c5f4f6e1300e2d9b82ca310c7d0"/>
+</record_update>

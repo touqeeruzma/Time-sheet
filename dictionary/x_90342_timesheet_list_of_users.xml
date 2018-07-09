@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="List of users" max_length="40" name="x_90342_timesheet_list_of_users" type="collection">
+        <element label="Employee" max_length="40" name="employee" reference="sys_user" type="reference"/>
+        <element label="Week" max_length="40" name="week" type="glide_date"/>
+    </element>
+</database>

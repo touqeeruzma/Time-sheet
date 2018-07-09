@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Exception Case" max_length="40" name="x_90342_timesheet_exception_case" type="collection">
+        <element default="javascript:gs.getUserID();" dynamic_default_value="15b28ff64f621300e2d9b82ca310c76e" label="Name" max_length="32" name="name" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element choice="3" default="draft" label="State" max_length="40" name="state" read_only="true" type="choice">
+            <choice>
+                <element label="Approved" value="approved"/>
+                <element label="Draft" value="draft"/>
+                <element label="Rejected" value="rejected"/>
+                <element label="Waiting For Approval" value="wait"/>
+            </choice>
+        </element>
+        <element label="Week" max_length="40" name="week" type="glide_date"/>
+        <index name="index">
+            <element name="name"/>
+        </index>
+    </element>
+</database>
