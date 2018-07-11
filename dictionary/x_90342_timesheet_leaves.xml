@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Leaves" max_length="40" name="x_90342_timesheet_leaves" type="collection">
+        <element label="Available Leaves" max_length="40" name="available_leaves" read_only="true" type="integer"/>
+        <element default="javascript:gs.getUserID();" dynamic_default_value="15b28ff64f621300e2d9b82ca310c76e" label="Employee" max_length="32" name="employee" read_only="true" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <element label="From date" max_length="40" name="from_date" type="glide_date"/>
+        <element default="0" label="Leaves applied" max_length="40" name="leaves_applied" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="draft" label="State" max_length="40" name="state" type="string">
+            <choice>
+                <element label="Approved" value="approve"/>
+                <element label="Draft" value="draft"/>
+                <element label="Rejected" value="reject"/>
+                <element label="Waiting For Approval" value="wait"/>
+            </choice>
+        </element>
+        <element label="To date" max_length="40" name="to_date" type="glide_date"/>
+        <index name="index">
+            <element name="employee"/>
+        </index>
+    </element>
+</database>
