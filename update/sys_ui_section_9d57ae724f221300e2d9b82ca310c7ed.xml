@@ -5,13 +5,13 @@
             <element>employee</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>91b3fc794f321300e2d9b82ca310c7a9</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>21d6378d4f131300e2d9b82ca310c723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>week_starts_on</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>15b3fc794f321300e2d9b82ca310c7a9</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>a1d6378d4f131300e2d9b82ca310c723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>category</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>95b3fc794f321300e2d9b82ca310c7a9</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>25d6378d4f131300e2d9b82ca310c723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>subcategory</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>19b3fc794f321300e2d9b82ca310c7a9</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>a5d6378d4f131300e2d9b82ca310c723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,139 +61,153 @@
             <element>description</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>99b3fc794f321300e2d9b82ca310c7a9</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>29d6378d4f131300e2d9b82ca310c723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>is_file_attached</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>a9d6378d4f131300e2d9b82ca310c723</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>5</position>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>1db3fc794f321300e2d9b82ca310c7a9</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>2dd6378d4f131300e2d9b82ca310c723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sunday_time</element>
-            <position>6</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>9db3fc794f321300e2d9b82ca310c7a9</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>add6378d4f131300e2d9b82ca310c723</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>monday_time</element>
-            <position>7</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>11b3fc794f321300e2d9b82ca310c7aa</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>21d6378d4f131300e2d9b82ca310c724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>tuesday_time</element>
-            <position>8</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>91b3fc794f321300e2d9b82ca310c7aa</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>a1d6378d4f131300e2d9b82ca310c724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>wednesday_time</element>
-            <position>9</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>15b3fc794f321300e2d9b82ca310c7aa</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>25d6378d4f131300e2d9b82ca310c724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>thursday_time</element>
-            <position>10</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>95b3fc794f321300e2d9b82ca310c7aa</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>a5d6378d4f131300e2d9b82ca310c724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>friday_time</element>
-            <position>11</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>19b3fc794f321300e2d9b82ca310c7aa</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>29d6378d4f131300e2d9b82ca310c724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>saturday_time</element>
-            <position>12</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>99b3fc794f321300e2d9b82ca310c7aa</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>a9d6378d4f131300e2d9b82ca310c724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>total_time</element>
-            <position>13</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-20 05:32:56</sys_created_on>
-            <sys_id>1db3fc794f321300e2d9b82ca310c7aa</sys_id>
+            <sys_created_on>2018-07-13 08:21:25</sys_created_on>
+            <sys_id>2dd6378d4f131300e2d9b82ca310c724</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_90342_timesheet_time_card" sys_domain="global" view="Default view">9d57ae724f221300e2d9b82ca310c7ed</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-20 05:32:56</sys_updated_on>
+            <sys_updated_on>2018-07-13 08:21:25</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

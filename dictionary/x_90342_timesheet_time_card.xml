@@ -13,6 +13,7 @@
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="1000" name="description" type="string"/>
         <element default="javascript:parent.employee.getDisplayValue()" label="Employee" max_length="32" name="employee" read_only="true" reference="sys_user" type="reference"/>
         <element default="0" label="Friday Time" max_length="40" name="friday_time" type="float"/>
+        <element label="Is File Attached" max_length="40" name="is_file_attached" type="boolean"/>
         <element default="0" label="Monday Time" max_length="40" name="monday_time" type="float"/>
         <element default="0" label="Saturday Time" max_length="40" name="saturday_time" type="float"/>
         <element choice="1" dependent="category" dependent_on_field="category" label="Subcategory" max_length="40" name="subcategory" type="choice" use_dependent_field="true">
